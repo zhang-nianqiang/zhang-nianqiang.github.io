@@ -262,9 +262,9 @@ tag_archive:
 # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled:
-     - categories
-     - tags
-     - year
+    - categories
+    - tags
+    - year
   layouts:
     category: archive-taxonomy
     tag: archive-taxonomy
