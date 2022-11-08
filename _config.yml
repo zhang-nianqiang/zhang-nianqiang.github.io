@@ -300,7 +300,9 @@ defaults:
       comments: # true
       share: true
       related: true
-
+      sidebar:
+        - text: >
+             [![Test image from Placeholder](https://via.placeholder.com/100)](https://placeholder.com/)
   # _pages
   - scope:
       path: "_pages"
