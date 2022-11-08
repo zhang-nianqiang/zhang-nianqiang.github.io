@@ -109,8 +109,6 @@ author:
   bio              : "电气、自动控制及PLC工程师." # 默认为"I am an **amazing** person."
   location         : "中国、辽宁、沈阳" # 默认为"Somewhere"
   email            : 
-  image: "/assets/images/350x250.png"
-    image_alt: "image"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
