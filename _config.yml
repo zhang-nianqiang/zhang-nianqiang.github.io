@@ -128,7 +128,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-
+  sidebar:
+    - text: >
+         [![Test image from Placeholder](https://via.placeholder.com/100)](https://placeholder.com/)
 # Site Footer
 footer:
   links:
