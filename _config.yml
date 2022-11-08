@@ -293,6 +293,9 @@ defaults:
       toc: ture # 新增加 含义 目录:使用
       toc_sticky: true # 新增加 含义 目录随动:使用
       show_date: true # 新增加 含义 显示发布时间
+      tagline: ""
+      header: 
+        overlay_color: "#333"
       read_time: true
       comments: # true
       share: true
