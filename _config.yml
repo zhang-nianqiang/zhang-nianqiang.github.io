@@ -311,6 +311,9 @@ defaults:
       layout: single
       author_profile: true
       comments: false
+      sidebar:
+        - text: >
+             [![Test image from Placeholder](https://via.placeholder.com/100)](https://placeholder.com/)
   - scope:
       path: ""
       type: tag
@@ -318,6 +321,9 @@ defaults:
       layout: single
       author_profile: true
       comments: false
+      sidebar:
+        - text: >
+             [![Test image from Placeholder](https://via.placeholder.com/100)](https://placeholder.com/)
   - scope:
       path: ""
       type: category
@@ -325,3 +331,6 @@ defaults:
       layout: single
       author_profile: true
       comments: false
+      sidebar:
+        - text: >
+             [![Test image from Placeholder](https://via.placeholder.com/100)](https://placeholder.com/)
