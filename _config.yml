@@ -324,6 +324,7 @@ defaults:
       layout: single
       author_profile: true
       comments: false
+      sidebar:
         - text: >
              请您在赞助之后给我留言，提供您的联系方式，会送给您会员福利.
              ![alipay_code](/assets/images/alipay_code.jpg)
@@ -335,6 +336,7 @@ defaults:
       layout: single
       author_profile: true
       comments: false
+      sidebar:
         - text: >
              请您在赞助之后给我留言，提供您的联系方式，会送给您会员福利.
              ![alipay_code](/assets/images/alipay_code.jpg)
