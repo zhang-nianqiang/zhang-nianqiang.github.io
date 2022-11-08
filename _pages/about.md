@@ -1,5 +1,6 @@
 ---
 permalink: /about/
+title： about
 ---
 
 ## 关于个人
