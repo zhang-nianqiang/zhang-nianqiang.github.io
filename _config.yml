@@ -297,8 +297,8 @@ defaults:
         overlay_color: "#333"
       read_time: true
       comments: # true
-      share: true
-      related: true
+      share: false
+      related: false
       sidebar:
         - text: >
              ![alipay_code](/assets/images/alipay_code.png)
