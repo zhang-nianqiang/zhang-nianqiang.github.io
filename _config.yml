@@ -128,9 +128,6 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-  sidebar:
-    - text: >
-         [![Test image from Placeholder](https://via.placeholder.com/100)](https://placeholder.com/)
 # Site Footer
 footer:
   links:
@@ -304,7 +301,7 @@ defaults:
       related: true
       sidebar:
         - text: >
-             [![Test image from Placeholder](https://via.placeholder.com/100)](https://placeholder.com/)
+             [![Test image from Placeholder](/assets/images/bio-photo.jpg)]
   # _pages
   - scope:
       path: "_pages"
