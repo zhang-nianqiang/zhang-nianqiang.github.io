@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "张年强" # 默认为"Your Name"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "" # 默认为"I am an **amazing** person."
+  bio              : "电气、自动控制及PLC工程师." # 默认为"I am an **amazing** person."
   location         : "中国、辽宁、沈阳" # 默认为"Somewhere"
   email            : 
   links:
@@ -124,7 +124,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/zhang-nianqiang" # 默认为"https://github.com/"
+      # url: "https://github.com/zhang-nianqiang" # 默认为"https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
