@@ -301,7 +301,6 @@ defaults:
       related: true
       sidebar:
         - text: >
-             赞助并留联系方式，送福利！
              ![alipay_code](/assets/images/alipay_code.png)
              ![tenpay_code](/assets/images/tenpay_code.png)
   # _pages
@@ -314,7 +313,6 @@ defaults:
       comments: false
       sidebar:
         - text: >
-             赞助并留联系方式，送福利！
              ![alipay_code](/assets/images/alipay_code.png)
              ![tenpay_code](/assets/images/tenpay_code.png)
   - scope:
@@ -326,7 +324,6 @@ defaults:
       comments: false
       sidebar:
         - text: >
-             赞助并留联系方式，送福利！
              ![alipay_code](/assets/images/alipay_code.png)
              ![tenpay_code](/assets/images/tenpay_code.png)
   - scope:
@@ -338,6 +335,5 @@ defaults:
       comments: false
       sidebar:
         - text: >
-             赞助并留联系方式，送福利！
              ![alipay_code](/assets/images/alipay_code.png)
              ![tenpay_code](/assets/images/tenpay_code.png)
