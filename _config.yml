@@ -302,8 +302,8 @@ defaults:
       sidebar:
         - text: >
              请您在赞助之后给我留言，提供您的联系方式，会送给您会员福利.
-             ![alipay_code](/assets/images/alipay_code.jpg)
-             ![tenpay_code](/assets/images/tenpay_code.jpg)
+             ![alipay_code](/assets/images/alipay_code.png)
+             ![tenpay_code](/assets/images/tenpay_code.png)
   # _pages
   - scope:
       path: "_pages"
@@ -315,8 +315,8 @@ defaults:
       sidebar:
         - text: >
              请您在赞助之后给我留言，提供您的联系方式，会送给您会员福利.
-             ![alipay_code](/assets/images/alipay_code.jpg)
-             ![tenpay_code](/assets/images/tenpay_code.jpg)
+             ![alipay_code](/assets/images/alipay_code.png)
+             ![tenpay_code](/assets/images/tenpay_code.png)
   - scope:
       path: ""
       type: tag
@@ -327,8 +327,8 @@ defaults:
       sidebar:
         - text: >
              请您在赞助之后给我留言，提供您的联系方式，会送给您会员福利.
-             ![alipay_code](/assets/images/alipay_code.jpg)
-             ![tenpay_code](/assets/images/tenpay_code.jpg)
+             ![alipay_code](/assets/images/alipay_code.png)
+             ![tenpay_code](/assets/images/tenpay_code.png)
   - scope:
       path: ""
       type: category
@@ -339,5 +339,5 @@ defaults:
       sidebar:
         - text: >
              请您在赞助之后给我留言，提供您的联系方式，会送给您会员福利.
-             ![alipay_code](/assets/images/alipay_code.jpg)
-             ![tenpay_code](/assets/images/tenpay_code.jpg)
+             ![alipay_code](/assets/images/alipay_code.png)
+             ![tenpay_code](/assets/images/tenpay_code.png)
