@@ -301,7 +301,7 @@ defaults:
       related: true
       sidebar:
         - text: >
-             请您在赞助之后给我留言，提供您的联系方式，会送给您会员福利.
+             赞助并留言联系方式，送会员福利！
              ![alipay_code](/assets/images/alipay_code.png)
              ![tenpay_code](/assets/images/tenpay_code.png)
   # _pages
@@ -314,7 +314,7 @@ defaults:
       comments: false
       sidebar:
         - text: >
-             请您在赞助之后给我留言，提供您的联系方式，会送给您会员福利.
+             赞助并留言联系方式，送会员福利！
              ![alipay_code](/assets/images/alipay_code.png)
              ![tenpay_code](/assets/images/tenpay_code.png)
   - scope:
@@ -326,7 +326,7 @@ defaults:
       comments: false
       sidebar:
         - text: >
-             请您在赞助之后给我留言，提供您的联系方式，会送给您会员福利.
+             赞助并留言联系方式，送会员福利！
              ![alipay_code](/assets/images/alipay_code.png)
              ![tenpay_code](/assets/images/tenpay_code.png)
   - scope:
@@ -338,6 +338,6 @@ defaults:
       comments: false
       sidebar:
         - text: >
-             请您在赞助之后给我留言，提供您的联系方式，会送给您会员福利.
+             赞助并留言联系方式，送会员福利！
              ![alipay_code](/assets/images/alipay_code.png)
              ![tenpay_code](/assets/images/tenpay_code.png)
