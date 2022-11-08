@@ -115,7 +115,7 @@ author:
       url: "mailto:15840334992@163.com" # 默认为"mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://zhang-nianqiang.github.io" # 默认为"https://your-website.com"
+      # url: "https://zhang-nianqiang.github.io" # 默认为"https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
