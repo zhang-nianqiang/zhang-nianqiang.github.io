@@ -1,16 +1,16 @@
 ---
 # PDF Start
-title: Fix：Dell笔记本电脑BIOS不支持升级Windows10
-author: 张年强
-subject: Household Facilities
-keywords: [Dell笔记本电脑,Windows10,BIOS]
+# title: Fix：Dell笔记本电脑BIOS不支持升级Windows10
+# author: 张年强
+# subject: Household Facilities
+# keywords: [Dell笔记本电脑,Windows10,BIOS]
 # PDF End
 # Github pages Jekyll Start
-# title: Fix：Dell笔记本电脑BIOS不支持升级Windows10
-# date: 2020-08-25 10:00:00 +0800
-# last_modified_at: 2022-11-03 10:00:00 +0800
-# categories: [Household Facilities]
-# tags: [Dell笔记本电脑,Windows10,BIOS] 
+title: Fix：Dell笔记本电脑BIOS不支持升级Windows10
+date: 2020-08-25 10:00:00 +0800
+last_modified_at: 2022-11-03 10:00:00 +0800
+categories: [Household Facilities]
+tags: [Dell笔记本电脑,Windows10,BIOS] 
 # Github pages Jekyll End
 ---
 
