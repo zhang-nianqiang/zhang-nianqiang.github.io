@@ -26,12 +26,10 @@ tags: [Dell笔记本电脑,Windows10,BIOS]
 ## 处理过程：升级BIOS
 
 1. 下载BIOS最新版本A11
-   
-   下载链接:<https://dl.dell.com/FOLDER06292082M/1/N5110A11.EXE>
-   20220913 ：由于未知原因，Dell官方网站恢复了A11版本的下载链接且修改了A11的更新日期
-   下载链接:<https://pan.baidu.com/s/1ShMbfqL67NyZcSyGMHj9hA>
-   提取码    : AXSD
-   20200825 ：由于未知原因，Dell官方网站移除了A3以上版本的下载链接且修改了A3的更新日期
+   - 下载链接:<https://dl.dell.com/FOLDER06292082M/1/N5110A11.EXE>
+   > 20220913 ：由于未知原因，Dell官方网站恢复了A11版本的下载链接且修改了A11的更新日期
+   - 下载链接:<https://pan.baidu.com/s/1ShMbfqL67NyZcSyGMHj9hA>提取码: AXSD
+   > 20200825 ：由于未知原因，Dell官方网站移除了A3以上版本的下载链接且修改了A3的更新日期
 2. 关闭正在运行的应用
 3. 确保电源持续稳定
 4. 运行BIOS程序进行安装
