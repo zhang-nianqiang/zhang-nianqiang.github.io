@@ -28,7 +28,9 @@ tags: [Dell笔记本电脑,Windows10,BIOS]
 1. 下载BIOS最新版本A11
    - [百度网盘下载链接](https://pan.baidu.com/s/1ShMbfqL67NyZcSyGMHj9hA) 提取码: AXSD
    - [Dell中国官方网站](https://www.dell.com/support/home/zh-cn) 可搜索到
+     
      > 20220913 ：未知原因，Dell官方网站恢复了A11版本的下载链接且修改了A11的更新日期
+
      > 20200825 ：未知原因，Dell官方网站移除了A3以上版本的下载链接且修改了A3的更新日期
 2. 关闭正在运行的应用
 3. 确保电源持续稳定
