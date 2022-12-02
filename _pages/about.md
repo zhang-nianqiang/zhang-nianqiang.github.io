@@ -31,7 +31,7 @@ title: about
 
 - 低压配电：施耐德
 - 传感器：欧姆龙
-- PLC:西门子，三菱，AB
+- PLC：西门子，三菱，AB
 
 工作常用软件：TIA portal
 
