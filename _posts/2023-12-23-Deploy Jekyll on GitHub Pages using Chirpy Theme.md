@@ -9,7 +9,7 @@
 title: 使用Chirpy Theme在GitHub Pages部署Jekyll
 author: 张年强
 date: 2023-12-23 10:00:00 +0800
-last_modified_at: 2024-01-12 10:00:00 +0800
+last_modified_at: 2024-01-13 10:00:00 +0800
 categories: [GitHub Pages]
 tags: [Chirpy Theme, Jekyll]
 image: 
@@ -49,25 +49,45 @@ Gem Based;Remote Theme;Theme Template,我们一般就是这三种方法在GitHub
 
 ```
 timezone: Asia/Shanghai
-title: 张年强
-tagline: 一个中年男人的生活
+title: XXX
+tagline: XXX
 description: >-
-  一个中年男人的生活.
-url: "https://zhang-nianqiang.github.io"
+  XXX
+url: "https://用户名.github.io"
 github:
-  username: zhang-nianqiang 
+  username: XXX 
 social:
-  name: 张年强
-  email: 15840334992@163.com
+  name: XXX
+  email: XXX@XXX.com
   links:
-    - https://github.com/zhang-nianqiang
-avatar: 'https://p-web.s3.bitiful.net/githubpage/bio-photo.jpg'
+    - https://github.com/用户名
+avatar: 'https://XXX.jpg'
 ```
 
 > 注意 : `url` 不能以 `/` 结尾.
 {: .prompt-warning }
 
 ### 增加评论功能
+
+方法一:使用与博客相同的仓库增加评论功能
+
+方法二:使用与博客不同的仓库增加评论功能
+
+作为非专业人士,选择方法二.
+
+这样选择的好处是:
+
+- 博客仓库的变更(包括更换主题及崩溃后重新部署),不影响评论数据的安全.
+
+  > 博客仓库名及文章名不能变更.
+  > {: .prompt-warning }
+
+- 博客主题升级时可以采用`主题模板`方法重新部署,不需要本地编译环境.
+
+  > 升级前需要仓库整体备份,升级后修改变更部分.
+  > {: .prompt-warning }
+
+新建仓库后按以下进行操作:
 
 1. 选择使用Discussions.
 
@@ -77,7 +97,7 @@ avatar: 'https://p-web.s3.bitiful.net/githubpage/bio-photo.jpg'
 
 3. 访问[giscus](https://giscus.app/zh-CN)设置.
 
-4. 填写<用户名/用户名.github.io>并选择参数.
+4. 填写<用户名/仓库名>并选择参数.
 
 5. 按照提示在 `_config.yml` 填写:
 
@@ -85,10 +105,10 @@ avatar: 'https://p-web.s3.bitiful.net/githubpage/bio-photo.jpg'
 comments:
  active: 'giscus'
  giscus:
-  repo: zhang-nianqiang/zhang-nianqiang.github.io
-  repo_id: R_kgDOK8M_xg
+  repo: 用户名/仓库名
+  repo_id: XXXXXXXX
   category: Announcements
-  category_id: DIC_kwDOK8M_xs4Cb5sz
+  category_id: XXXXXXXX
   mapping: 'pathname'
   input_position: 'top'
   lang: zh-CN
