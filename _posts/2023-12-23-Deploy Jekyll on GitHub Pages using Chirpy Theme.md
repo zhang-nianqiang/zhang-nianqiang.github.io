@@ -13,8 +13,8 @@ last_modified_at: 2024-01-13 10:00:00 +0800
 categories: [GitHub Pages]
 tags: [Chirpy Theme, Jekyll]
 image: 
-  path: https://p-web.s3.bitiful.net/githubpage/16511.01-00002-jekyll-og.png
-  lqip: https://p-web.s3.bitiful.net/githubpage/16511.01-00002-jekyll-og.png
+  path: /githubpage/16511.01-00002-jekyll-og.png
+  lqip: /githubpage/16511.01-00002-jekyll-og.png
 # Github pages Jekyll End
 ---
 

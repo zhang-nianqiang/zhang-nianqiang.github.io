@@ -13,8 +13,8 @@ last_modified_at: 2024-01-12 10:00:00 +0800
 categories: [GitHub Pages]
 tags: [Github Actions, Docusaurus v3]
 image: 
-  path: https://p-web.s3.bitiful.net/githubpage/16511.01-00001-docusaurus-social-card.jpg
-  lqip: https://p-web.s3.bitiful.net/githubpage/16511.01-00001-docusaurus-social-card.jpg
+  path: /githubpage/16511.01-00001-docusaurus-social-card.jpg
+  lqip: /githubpage/16511.01-00001-docusaurus-social-card.jpg
 # Github pages Jekyll End
 ---
 
