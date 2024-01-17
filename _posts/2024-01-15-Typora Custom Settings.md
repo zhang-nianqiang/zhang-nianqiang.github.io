@@ -13,8 +13,8 @@ last_modified_at: 2024-01-17 10:00:00 +0800
 categories: [Workflow]
 tags: [Typora, Custom Settings]
 image: 
-  path: /githubpage/16511.01-00001-icon_512x512@2x.png
-  lqip: /githubpage/16511.01-00001-icon_512x512@2x.png
+  path: /githubpage/16511.01-00003-OD-WideTile.scale-400.png
+  lqip: /githubpage/16511.01-00003-OD-WideTile.scale-400.png
 # Github pages Jekyll End
 ---
 
