@@ -13,8 +13,8 @@ last_modified_at: 2024-01-17 10:00:00 +0800
 categories: [Workflow]
 tags: [Typora, Custom Settings]
 image: 
-  path: /githubpage/16511.01-00003-OD-WideTile.scale-400.png
-  lqip: /githubpage/16511.01-00003-OD-WideTile.scale-400.png
+  path: /githubpage/16511.01-00001-icon_512x512@2x.png
+  lqip: /githubpage/16511.01-00001-icon_512x512@2x.png
 # Github pages Jekyll End
 ---
 
@@ -104,7 +104,7 @@ h6 {
 ```json
   "searchService": [
     ["Search with Bing", "https://cn.bing.com/search?q=%s"]
-  ],
+  ]
 ```
 
 ## 图片上传
@@ -153,27 +153,11 @@ h6 {
 6. 测试图片上传自动替换网络地址
 
 > [!NOTE]  
+>
 > ① 上传后会删除本地图片,如想保留可以:
 >
->   文件 -> 偏好设置 -> 图像 -> 插入图片时 -> 复制图片.../选择对本地图片
+> 文件 -> 偏好设置 -> 图像 -> 插入图片时 -> 复制图片.../选择对本地图片
 >
 > ② 上传后的图片文件名是日期格式.
 
 ---
-
-## 文档信息：
-
-| 文档作者 | 张年强                   |
-| -------: | :----------------------- |
-| 文档分类 | 16511-Blog               |
-|          | 16511.01-Workflow        |
-| 存储等级 | B                        |
-| 保密等级 | D                        |
-| 检查等级 | B                        |
-| 更新等级 | B                        |
-| 生命周期 | 更新                     |
-| 文档编号 | 16511.01-00003           |
-| 文档版本 | 1.0.0.20240115           |
-| 版权声明 | 作者保留所有权利         |
-| 免责声明 | 作者不对任何不良后果负责 |
-| 更新日志 | 1.0.0.20240115 首次发布  |
