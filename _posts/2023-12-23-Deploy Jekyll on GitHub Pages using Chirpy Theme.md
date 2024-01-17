@@ -50,7 +50,7 @@ Gem Based;Remote Theme;Theme Template,我们一般就是这三种方法在GitHub
 
 打开 `_config.yml` :
 
-```
+```yaml
 timezone: Asia/Shanghai
 title: XXX
 tagline: XXX
@@ -76,7 +76,7 @@ social:
 
 打开 `_config.yml` :
 
-```
+```yaml
 img_cdn: https://XXX.com
 avatar: '/XXX.jpg'
 ```
@@ -121,7 +121,7 @@ avatar: '/XXX.jpg'
 
 5. 按照提示在 `_config.yml` 填写:
 
-```
+```yaml
 comments:
  active: 'giscus'
  giscus:
@@ -147,7 +147,7 @@ comments:
 
 1. 打开 `_config.yml`:
 
-```
+```yaml
 lang: zh-CN
 ```
 
@@ -157,7 +157,7 @@ lang: zh-CN
 
 打开 `_data/contact.yml` ,在需要删除的社交图标前增加 `#`
 
-```
+```yaml
 # - type: twitter
 #   icon: "fa-brands fa-x-twitter"
 ```
@@ -166,7 +166,7 @@ lang: zh-CN
 
 1. 打开 `_config.yml` :
 
-```
+```yaml
 assets:
   self_host:
     enabled: true
@@ -174,7 +174,7 @@ assets:
 
 2. 打开 `.github/workflows/pages-deploy.yml` :
 
-```
+```yaml
 steps:
   - name: Checkout
     uses: actions/checkout@v4

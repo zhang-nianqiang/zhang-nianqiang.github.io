@@ -75,7 +75,7 @@ Windows本地推荐安装环境:
 
 使用以下命令:
 
-```
+```yarn
 yarn create docusaurus <folder-name> classic --typescript
 ```
 
@@ -87,7 +87,7 @@ yarn create docusaurus <folder-name> classic --typescript
 >
 > ③ 检查是否存在 `yarn.lock` 如果不存在,在 `<folder-name>` 文件夹下使用以下命令生成此文件:
 >
-> ```
+> ```yarn
 > yarn build
 > ```
 >
@@ -99,7 +99,7 @@ yarn create docusaurus <folder-name> classic --typescript
 
 配置 `Url` 和 `baseUrl` .
 
-```
+```ts
 const config: Config = {
   // (...)
   url: `https://<github-organization-name>.github.io`,
@@ -109,7 +109,7 @@ const config: Config = {
 
 配置 `organizationName` 和 `projectName` .
 
-```
+```ts
 const config: Config = {
   // (...)
   organizationName: '<github-organization-name>',
@@ -119,7 +119,7 @@ const config: Config = {
 
 配置Docs和Blog的 `editUrl` .
 
-```
+```ts
 const config: Config = {
   // (...)
   presets: [
@@ -144,7 +144,7 @@ const config: Config = {
 
 新建: `.github/workflows/<workflow-name>.yml` 文件并粘贴以下内容:
 
-```
+```yaml
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
