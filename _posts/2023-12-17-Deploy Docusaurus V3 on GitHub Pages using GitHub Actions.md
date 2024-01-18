@@ -75,7 +75,7 @@ Windows本地推荐安装环境:
 
 使用以下命令:
 
-```yarn
+```
 yarn create docusaurus <folder-name> classic --typescript
 ```
 
@@ -87,7 +87,7 @@ yarn create docusaurus <folder-name> classic --typescript
 >
 > ③ 检查是否存在 `yarn.lock` 如果不存在,在 `<folder-name>` 文件夹下使用以下命令生成此文件:
 >
-> ```yarn
+> ```
 > yarn build
 > ```
 >
