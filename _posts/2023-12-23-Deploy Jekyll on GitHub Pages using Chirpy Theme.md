@@ -85,11 +85,11 @@ avatar: '/XXX.jpg'
 >
 > 图片链接使用时以 `/` 开头.
 
-### 增加评论功能
+### 增加Giscus评论功能
 
-方法一:使用与博客相同的仓库增加评论功能
+方法一:使用与博客相同的仓库增加评论功能.
 
-方法二:使用与博客不同的仓库增加评论功能
+方法二:使用与博客不同的仓库增加评论功能.
 
 作为非专业人士,选择方法二.
 
@@ -121,66 +121,105 @@ avatar: '/XXX.jpg'
 
 5. 按照提示在 `_config.yml` 填写:
 
-```yaml
-comments:
- active: 'giscus'
- giscus:
-  repo: 用户名/仓库名
-  repo_id: XXXXXXXX
-  category: Announcements
-  category_id: XXXXXXXX
-  mapping: 'pathname'
-  input_position: 'top'
-  lang: zh-CN
-  reactions_enabled: 1
-```
+   ```yaml
+   comments:
+    active: 'giscus'
+    giscus:
+     repo: 用户名/仓库名
+     repo_id: XXXXXXXX
+     category: Announcements
+     category_id: XXXXXXXX
+     mapping: 'pathname'
+     input_position: 'top'
+     lang: zh-CN
+     reactions_enabled: 1
+   ```
 
-> [!IMPORTANT]  
->
-> ① 评论设置中的 `lang` 设置需要和本地化的 `lang` 一致.
->
-> ② 所填内容与 `#` 需要有空格间隔.
->
-> ③ 不同设置需要不同符号,单引号或双引号或无符号.
+   > [!IMPORTANT]  
+   >
+   > ① 评论设置中的 `lang` 设置需要和本地化的 `lang` 一致.
+   >
+   > ② 所填内容与 `#` 需要有空格间隔.
+   >
+   > ③ 不同设置需要不同符号,单引号或双引号或无符号.
 
 ### 本地化
 
-1. 打开 `_config.yml`:
+1. 打开 `_config.yml` :
 
-```yaml
-lang: zh-CN
-```
+   ```yaml
+   lang: zh-CN
+   ```
 
 2. 在[jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)的 `_data/locales/` 复制 `zh-CN.yml` 文件到仓库相同文件夹上传.
 
+### 版权声明
+
+打开 `_data/locales/zh-CN.yml` :
+
+```yaml
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: 本文由作者按照 :LICENSE_NAME 进行授权
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # Displayed in the footer
+  brief: 保留部分权利。
+  verbose: >-
+    除非另有说明，本网站上的博客文章均由作者按照知识共享署名 4.0 国际 (CC BY 4.0) 许可协议进行授权。
+```
+
+按照需要修改.
+
 ### 删除社交图标
 
-打开 `_data/contact.yml` ,在需要删除的社交图标前增加 `#`
+打开 `_data/contact.yml` ,在需要删除的社交图标前增加 `#` :
 
 ```yaml
 # - type: twitter
 #   icon: "fa-brands fa-x-twitter"
 ```
 
+### 删除分享图标
+
+打开 `_data/share.yml` ,在需要删除的分享图标前增加 `#` :
+
+```yaml
+platforms:
+#  - type: Twitter
+#    icon: "fa-brands fa-square-x-twitter"
+#    link: "https://twitter.com/intent/tweet?text=TITLE&url=URL"
+
+#  - type: Facebook
+#    icon: "fab fa-facebook-square"
+#    link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
+
+#  - type: Telegram
+#    icon: "fab fa-telegram"
+#    link: "https://t.me/share/url?url=URL&text=TITLE"
+```
+
 ### 使用子模块
 
 1. 打开 `_config.yml` :
 
-```yaml
-assets:
-  self_host:
-    enabled: true
-```
+   ```yaml
+   assets:
+     self_host:
+       enabled: true
+   ```
 
 2. 打开 `.github/workflows/pages-deploy.yml` :
 
-```yaml
-steps:
-  - name: Checkout
-    uses: actions/checkout@v4
-    with:
-      submodules: true
-```
+   ```yaml
+   steps:
+     - name: Checkout
+       uses: actions/checkout@v4
+       with:
+         submodules: true
+   ```
 
 ## 上传至仓库
 
