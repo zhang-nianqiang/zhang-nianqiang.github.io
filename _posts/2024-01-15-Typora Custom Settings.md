@@ -2,19 +2,19 @@
 # PDF Start
 # title: Typora自定义设置
 # author: 张年强 
-# subject: Workflow
+# subject: Software
 # keywords: [Typora, Custom Settings]
 # PDF End
 # Github pages Jekyll Start
 title: Typora自定义设置
 author: 张年强
 date: 2024-01-15 10:00:00 +0800
-last_modified_at: 2024-01-17 10:00:00 +0800
-categories: [Workflow]
+last_modified_at: 2024-01-29 10:00:00 +0800
+categories: [Software]
 tags: [Typora, Custom Settings]
 image: 
-  path: /githubpage/16511.01-00003-OD-WideTile.scale-400.png
-  lqip: /githubpage/16511.01-00003-OD-WideTile.scale-400.png
+  path: /githubpage/642.101-OD-WideTile.scale-400.png
+  lqip: /githubpage/642.101-OD-WideTile.scale-400.png
 # Github pages Jekyll End
 ---
 
@@ -111,19 +111,23 @@ h6 {
 
 ## 图片上传
 
-图床使用的是[缤纷云](https://www.bitiful.com),使用了[bitiful-typora-upload-cli](https://github.com/XRSec/bitiful-typora-upload-cli)插件,感谢[XRSec](https://github.com/XRSec)的工作!
+图床使用[缤纷云](https://www.bitiful.com).
 
-1. 设置缤纷云参数
+设置缤纷云参数
 
-   登录 -> 对象存储 
+登录 -> 对象存储 
 
-   ① 桶列表 -> 桶信息 -记录其中的Endpoint/Region
+① 桶列表 -> 桶信息 -记录其中的Endpoint/Region
 
-   ② AccessKey -> 添加子用户 -> 设定权限 全选
+② AccessKey -> 添加子用户 -> 设定权限 全选
 
-   ③ AccessKey -> 添加Key -> 记录AccessKeyID/AccessKeySecret
+③ AccessKey -> 添加Key -> 记录AccessKeyID/AccessKeySecret
 
-2. 设置图床参数
+### 方法一:
+
+使用[bitiful-typora-upload-cli](https://github.com/XRSec/bitiful-typora-upload-cli)插件,感谢[XRSec](https://github.com/XRSec)的工作!
+
+1. 设置图床参数
 
    - 新建 `.txt` 文件.
 
@@ -142,35 +146,55 @@ h6 {
 
    - 存放在C:\Users\xxx\AppData\Roaming文件夹.
 
-3. 下载插件
+2. 下载插件
 
    - 地址: [bitiful-typora-upload-cli](https://github.com/XRSec/bitiful-typora-upload-cli/releases)
-
    - 名称: `bitiful-windows-386.exe`
 
-4. 设置上传方式
+3. 设置上传方式
 
    - 文件 -> 偏好设置 -> 图像 -> 上传服务设定 -> 自定义命令
-   
+
    - 复制exe的路径.
-   
+
      例如: `C:\Users\XXX\AppData\Roaming\bitiful\bitiful-windows-386.exe`
-   
+
    - 粘贴在自定义命令上.
 
-5. 验证图片上传
+4. 验证图片上传
 
    - 文件 -> 偏好设置 -> 图像 -> 上传服务设定 -> 点击 `验证图片上传选项`
    - 成功会有弹窗提示.
 
-6. 测试图片上传自动替换网络地址
-
-> [!NOTE]  
+> [!NOTE] 
 >
 > ① 上传后会删除本地图片,如想保留可以:
 >
 >    文件 -> 偏好设置 -> 图像 -> 插入图片时 -> 复制图片.../选择对本地图片
 >
 > ② 上传后的图片文件名是日期格式.
+
+### 方法二:
+
+使用[PicList](https://github.com/Kuingsmile/PicList),感谢[Kuingsmile](https://github.com/Kuingsmile)的工作!
+
+图床 -> AWS S3 -> 编辑
+
+```yaml
+Endpoint: "https://s3.bitiful.net"
+Region: "cn-east-1"
+AccessKeyID: "xxxxxxxxxxx"
+AccessKeySecret: "xxxxxxxxxxxxxxxx"
+BucketName: "xxxxxxxxxx"
+Path: "xxxxxxxx/{fullName}"
+```
+
+其他设置按照需要设置
+
+设置 -> 上传设置
+
+> [!NOTE] 
+>
+> 作为非专业人士,选择方法二
 
 ---
