@@ -2,19 +2,19 @@
 # PDF Start
 # title: 使用GitHub Actions在GitHub Pages部署Docusaurus V3
 # author: 张年强 
-# subject: Workflow
+# subject: Internet Technology
 # keywords: [Github Actions, Docusaurus v3, GitHub Pages]
 # PDF End
 # Github pages Jekyll Start
 title: 使用GitHub Actions在GitHub Pages部署Docusaurus V3
 author: 张年强
 date: 2023-12-17 10:00:00 +0800
-last_modified_at: 2024-01-12 10:00:00 +0800
-categories: [Workflow]
+last_modified_at: 2024-01-29 10:00:00 +0800
+categories: [Internet Technology]
 tags: [Github Actions, Docusaurus v3, GitHub Pages]
 image: 
-  path: /githubpage/16511.01-00001-docusaurus-social-card.jpg
-  lqip: /githubpage/16511.01-00001-docusaurus-social-card.jpg
+  path: /githubpage/644.101-docusaurus-social-card.jpg
+  lqip: /githubpage/644.101-docusaurus-social-card.jpg
 # Github pages Jekyll End
 ---
 
