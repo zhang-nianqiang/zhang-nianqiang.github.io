@@ -2,19 +2,19 @@
 # PDF Start
 # title: 使用Chirpy Theme在GitHub Pages部署Jekyll
 # author: 张年强 
-# subject: Workflow
+# subject: Internet Technology
 # keywords: [Chirpy Theme, Jekyll, GitHub Pages]
 # PDF End
 # Github pages Jekyll Start
 title: 使用Chirpy Theme在GitHub Pages部署Jekyll
 author: 张年强
 date: 2023-12-23 10:00:00 +0800
-last_modified_at: 2024-01-13 10:00:00 +0800
-categories: [Workflow]
+last_modified_at: 2024-01-29 10:00:00 +0800
+categories: [Internet Technology]
 tags: [Chirpy Theme, Jekyll, GitHub Pages]
 image: 
-  path: /githubpage/16511.01-00002-jekyll-og.png
-  lqip: /githubpage/16511.01-00002-jekyll-og.png
+  path: /githubpage/644.102-jekyll-og.png
+  lqip: /githubpage/644.102-jekyll-og.png
 # Github pages Jekyll End
 ---
 
