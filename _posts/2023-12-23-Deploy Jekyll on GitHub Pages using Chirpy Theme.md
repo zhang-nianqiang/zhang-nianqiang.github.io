@@ -9,7 +9,7 @@
 title: 使用Chirpy Theme在GitHub Pages部署Jekyll
 author: 张年强
 date: 2023-12-23 10:00:00 +0800
-last_modified_at: 2024-01-29 10:00:00 +0800
+last_modified_at: 2024-06-15 10:00:00 +0800
 categories: [Internet Technology]
 tags: [Chirpy Theme, Jekyll, GitHub Pages]
 image: 
@@ -17,6 +17,10 @@ image:
   lqip: /githubpage/644.102-jekyll-og.png
 # Github pages Jekyll End
 ---
+
+## 更新说明
+
+2024.06.15 适配Chirpy V7.0版本
 
 ## 前言
 
