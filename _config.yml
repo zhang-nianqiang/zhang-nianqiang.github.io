@@ -331,3 +331,5 @@ defaults:
       toc: true
       toc_sticky: true
       toc_icon: "file-alt fa-fw"
+      header: 
+        overlay_color: "#333"
