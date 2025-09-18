@@ -334,3 +334,4 @@ defaults:
       header: 
         overlay_color: "#333"
         show_overlay_excerpt: false
+        modified date: true
