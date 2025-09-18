@@ -333,3 +333,4 @@ defaults:
       toc_icon: "file-alt fa-fw"
       header: 
         overlay_color: "#333"
+        show_overlay_excerpt: false
