@@ -322,7 +322,7 @@ defaults:
     values:
       layout: single
       classes: wide
-      author_profile: true
+      author_profile: false # true
       show_date: true
       read_time: true
       comments: # true
