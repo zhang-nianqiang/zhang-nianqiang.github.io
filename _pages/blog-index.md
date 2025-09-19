@@ -2,8 +2,8 @@
 title: "生活"
 layout: home
 permalink: /blog/
-description: "酸甜苦辣咸"
-tagline: "张年强的生活"
+description: "张年强的生活"
+tagline: "酸甜苦辣咸"
 author_profile: true
 header:
   overlay_color: "#5e616c"
