@@ -337,11 +337,11 @@ defaults:
         show_overlay_excerpt: false
         # modified date: true
 
-- scope:
+  - scope:
       path: ""
       type: pages
     values:
-      # layout: single
+      layout: single
       author_profile: false
       comments: false
       excerpt: false
