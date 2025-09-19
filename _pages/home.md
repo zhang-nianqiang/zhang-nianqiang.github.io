@@ -7,7 +7,7 @@ header:
   actions:
     - label: "<i class='fas fa-book'></i> 生活"
       url: "/blog/"
-    - label: "<i class='fas fa-battery-empty'></i> 工作"
+    - label: "<i class='fas fa-person-digging'></i> 工作"
       url: "https://github.com/iBug"
     - label: "<i class='fas fa-gears'></i> 项目"
       url: "/about/"
