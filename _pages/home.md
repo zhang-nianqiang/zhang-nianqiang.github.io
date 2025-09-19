@@ -5,12 +5,13 @@ hidden: true
 header:
   overlay_color: "#5e616c"
   actions:
-    - label: "<i class='fas fa-gears'></i> About"
-      url: "/about/"
     - label: "<i class='fas fa-book'></i> 生活"
       url: "/blog/"
-    - label: "<i class='fab fa-github'></i> GitHub"
+    - label: "<i class='fab fa-person-digging"</i> 工作"
       url: "https://github.com/iBug"
+    - label: "<i class='fas fa-gears'></i> 项目"
+      url: "/about/"
+    
 excerpt: >
   一个中年男人的生活<br />
 feature_row:
