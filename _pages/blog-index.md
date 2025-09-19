@@ -2,8 +2,8 @@
 title: "Blog"
 layout: home
 permalink: /blog/
-description: "All of iBug's articles"
-tagline: "All of iBug's articles"
+description: "All of 张年强's articles"
+tagline: "All of 张年强's articles"
 author_profile: true
 header:
   overlay_color: "#5e616c"
