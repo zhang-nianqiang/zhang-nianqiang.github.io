@@ -5,9 +5,9 @@ hidden: true
 header:
   overlay_color: "#5e616c"
   actions:
-    - label: "<i class='fas fa-user-circle'></i> About"
+    - label: "<i class='fas fa-fa-gears'></i> About"
       url: "/about/"
-    - label: "<i class='fas fa-book'></i> Blog"
+    - label: "<i class='fas fa-book'></i> 生活"
       url: "/blog/"
     - label: "<i class='fab fa-github'></i> GitHub"
       url: "https://github.com/iBug"
