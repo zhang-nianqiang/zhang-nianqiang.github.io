@@ -4,6 +4,13 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
+  actions:
+    - label: "<i class='fas fa-user-circle'></i> About"
+      url: "/about/"
+    - label: "<i class='fas fa-book'></i> Blog"
+      url: "/blog/"
+    - label: "<i class='fab fa-github'></i> GitHub"
+      url: "https://github.com/iBug"
 excerpt: >
   一个中年男人的生活<br />
 feature_row:
