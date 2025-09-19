@@ -5,7 +5,7 @@ hidden: true
 header:
   overlay_color: "#5e616c"
   actions:
-    - label: "<i class='fas fa-fa-gears'></i> About"
+    - label: "<i class='fas fa-gears'></i> About"
       url: "/about/"
     - label: "<i class='fas fa-book'></i> 生活"
       url: "/blog/"
