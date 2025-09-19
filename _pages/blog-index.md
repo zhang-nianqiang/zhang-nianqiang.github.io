@@ -1,9 +1,9 @@
 ---
-title: "Blog"
+title: "生活"
 layout: home
 permalink: /blog/
-description: "All of 张年强's articles"
-tagline: "All of 张年强's articles"
+description: "酸甜苦辣咸"
+tagline: "张年强的生活"
 author_profile: true
 header:
   overlay_color: "#5e616c"
