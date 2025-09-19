@@ -16,7 +16,7 @@
     {% if document.last_modified_at %}
       {% assign date = document.last_modified_at %}
       <span class="page__meta-date">
-        <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> 
         {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
         <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ date | date: date_format }}</time>
@@ -24,7 +24,7 @@
     {% elsif document.date %}
       {% assign date = document.date %}
       <span class="page__meta-date">
-        <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> 
         {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
         <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: date_format }}</time>
