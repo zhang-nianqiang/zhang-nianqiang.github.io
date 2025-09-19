@@ -9,8 +9,7 @@ excerpt: >
 feature_row:
   - title: "Super customizable"
     url: "/docs/configuration/"
-    btn_class: "btn--success"
-    btn_class: "btn--x-large"
+    btn_class: ".btn .btn--primary .btn--x-large"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-responsive-feature.png
     alt: "fully responsive"
