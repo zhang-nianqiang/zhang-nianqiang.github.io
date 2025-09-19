@@ -331,8 +331,17 @@ defaults:
       toc: true
       toc_sticky: true
       toc_icon: "file-alt fa-fw"
-      show_excerpts: false
+      excerpt: false
       header: 
         overlay_color: "#333"
         show_overlay_excerpt: false
         # modified date: true
+
+- scope:
+      path: ""
+      type: pages
+    values:
+      # layout: single
+      author_profile: false
+      comments: false
+      excerpt: false
