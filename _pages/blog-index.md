@@ -10,4 +10,3 @@ header:
   overlay_color: "#5e616c"
   overlay_filter: linear-gradient(rgba(0, 0, 0, 0.2), transparent)
 ---
-
