@@ -13,7 +13,7 @@ header:
       url: "/about/"
     
 excerpt: >
-  一个中年男人的生活<br />
+  一个中年男人的过去,现在和将来.<br />
 feature_row:
   - title: "Super customizable"
     url: "/docs/configuration/"
