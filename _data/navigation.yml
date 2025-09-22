@@ -1,4 +1,6 @@
 main:
+  - title: "生活"
+    url: /blog/
   - title: "项目"
     url: /projects/
   - title: "文章"
