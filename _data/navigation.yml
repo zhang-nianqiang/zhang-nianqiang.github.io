@@ -1,4 +1,6 @@
 main:
+  - title: "项目"
+    url: /projects/
   - title: "文章"
     url: /posts/
   - title: "分类"
