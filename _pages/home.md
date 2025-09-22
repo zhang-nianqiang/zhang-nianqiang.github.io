@@ -12,21 +12,16 @@ header:
       url: "https://github.com/iBug"
     - label: "<i class='fas fa-gears'></i> 项 目"
       url: "/about/"
-
-feature_row:
-  - title: "Super customizable"
-    url: "/docs/configuration/"
-    excerpt: "Free to use however you "
-    btn_class: "btn btn--primary btn--x-large"
-    btn_label: "Learn more"
 ---
 
 ## 关于版权
 
-作者保留所有权利，如需授权请联系作者。
+作者保留本站所有内容权利，如需授权请联系作者。
 
 ## 免责声明
 
-作者不对任何不良后果负责。
+本站内容仅为个人经历总结,受当时的时间,环境及其他无法控制的因素制约,无法适用于所有情况.
 
-{% include feature_row %}
+当您需要使用本站信息时请自行判断及听取专业人士建议是否适合您所处的环境及条件.
+
+对于因使用本站信息而引致的不良后果或任何损失,本站概不负责,亦不负任何法律责任.
