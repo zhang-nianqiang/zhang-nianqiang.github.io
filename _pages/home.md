@@ -11,7 +11,7 @@ header:
     - label: "<i class='fas fa-person-digging'></i> 工 作"
       url: "https://github.com/iBug"
     - label: "<i class='fas fa-gears'></i> 项 目"
-      url: "/about/"
+      url: "/projects/"
 ---
 
 ### 版权声明
