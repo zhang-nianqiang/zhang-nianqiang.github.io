@@ -3,6 +3,7 @@ layout: splash
 permalink: /
 hidden: true
 title: 一个中年男人的昨天和今天
+<br />
 header:
   overlay_color: "#5e616c"
   actions:
@@ -12,7 +13,7 @@ header:
       url: "https://github.com/iBug"
     - label: "<i class='fas fa-gears'></i> 项 目"
       url: "/about/"
-
+<br />
 feature_row:
   - title: "Super customizable"
     url: "/docs/configuration/"
