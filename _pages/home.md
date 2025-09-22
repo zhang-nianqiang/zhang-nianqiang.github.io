@@ -33,4 +33,12 @@ feature_row:
     btn_label: "Learn more"      
 ---
 
+## 关于版权
+
+作者保留所有权利，如需授权请联系作者。
+
+## 免责声明
+
+作者不对任何不良后果负责。
+
 {% include feature_row %}
