@@ -2,6 +2,7 @@
 layout: splash
 permalink: /
 hidden: true
+title: 张年强
 header:
   overlay_color: "#5e616c"
   actions:
