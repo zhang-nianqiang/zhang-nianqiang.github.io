@@ -220,6 +220,15 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Collections
+collections:
+  project:
+    output: true
+    permalink: /:collection/:path/
+  work:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Sass/SCSS
 sass:
@@ -340,6 +349,16 @@ defaults:
   - scope:
       path: ""
       type: project
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      comment: false
+
+# _work
+  - scope:
+      path: ""
+      type: work
     values:
       layout: single
       author_profile: false
