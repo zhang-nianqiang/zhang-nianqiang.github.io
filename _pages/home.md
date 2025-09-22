@@ -9,7 +9,7 @@ header:
     - label: "<i class='fas fa-book'></i> 生 活"
       url: "/blog/"
     - label: "<i class='fas fa-person-digging'></i> 工 作"
-      url: "https://github.com/iBug"
+      url: "/work/"
     - label: "<i class='fas fa-gears'></i> 项 目"
       url: "/projects/"
 ---
