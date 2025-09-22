@@ -12,9 +12,7 @@ header:
       url: "https://github.com/iBug"
     - label: "<i class='fas fa-gears'></i> 项 目"
       url: "/about/"
-    
-excerpt: >
-<br />
+
 feature_row:
   - title: "Super customizable"
     url: "/docs/configuration/"
