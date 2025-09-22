@@ -335,3 +335,13 @@ defaults:
         overlay_color: "#333"
         show_overlay_excerpt: false
         # modified date: true
+
+# _projects
+  - scope:
+      path: ""
+      type: project
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      comment: false
