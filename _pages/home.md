@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 hidden: true
-title: 张年强
+title: 一个中年男人的昨天和今天
 header:
   overlay_color: "#5e616c"
   actions:
