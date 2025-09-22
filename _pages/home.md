@@ -5,11 +5,11 @@ hidden: true
 header:
   overlay_color: "#5e616c"
   actions:
-    - label: "<i class='fas fa-book'></i> 生活"
+    - label: "<i class='fas fa-book'></i> 生 活"
       url: "/blog/"
-    - label: "<i class='fas fa-person-digging'></i> 工作"
+    - label: "<i class='fas fa-person-digging'></i> 工 作"
       url: "https://github.com/iBug"
-    - label: "<i class='fas fa-gears'></i> 项目"
+    - label: "<i class='fas fa-gears'></i> 项 目"
       url: "/about/"
     
 excerpt: >
