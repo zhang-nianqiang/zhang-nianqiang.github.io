@@ -21,7 +21,7 @@ title                    : "张年强"
 title_separator          : "-"
 subtitle                 : "" # site tagline that appears below site title in masthead
 name                     : "张年强"
-description              : "一个中年男人的过去,现在和未来."
+description              : "一个中年男人的过去和现在."
 url                      : "https://zhang-nianqiang.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "zhang-nianqiang/zhang-nianqiang.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
