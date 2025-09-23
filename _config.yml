@@ -354,7 +354,7 @@ defaults:
       author_profile: false
       share: false
       comment: false
-
+      overlay_excerpt: true
 # _work
   - scope:
       path: ""
