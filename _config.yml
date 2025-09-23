@@ -321,6 +321,7 @@ compress_html:
   ignore:
     envs: development
 
+overlay_excerpt: true
 
 # Defaults
 defaults:
@@ -344,7 +345,7 @@ defaults:
         overlay_color: "#333"
         show_overlay_excerpt: false
         # modified date: true
-overlay_excerpt: true
+
 # _projects
   - scope:
       path: ""
