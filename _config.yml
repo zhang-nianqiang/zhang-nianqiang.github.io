@@ -344,7 +344,7 @@ defaults:
         overlay_color: "#333"
         show_overlay_excerpt: false
         # modified date: true
-
+overlay_excerpt: true
 # _projects
   - scope:
       path: ""
@@ -354,7 +354,7 @@ defaults:
       author_profile: false
       share: false
       comment: false
-      overlay_excerpt: true
+      
 # _work
   - scope:
       path: ""
