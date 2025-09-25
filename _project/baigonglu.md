@@ -3,6 +3,27 @@ title: "百 工 庐<br /><br />"
 excerpt: "编写适合中国的家庭自主维修及个性化指南的网站"
 ---
 
-> The Lhasa Apso (/ˈlɑːsə ˈæpsoʊ/ lah-sə ap-soh) is a non-sporting dog breed originating in Tibet. It was bred as an interior sentinel in the Buddhist monasteries, to alert the monks to any intruders who entered. Lhasa is the capital city of Tibet, and apso is a word in the Tibetan language meaning "bearded", so, Lhasa Apso simply means "long-haired Lhasa dog". There are, however, some who claim that the word "apso" is a form of the Tibetan word "rapso", meaning "goat-like", which would make the equivalent translation "wooly Lhasa dog".
+## 可行性分析
 
-> <cite>From Wikipedia, the free encyclopedia</cite>
+1. 定义
+
+2. 需求端
+
+   城镇内人口
+
+   农业人口
+
+   其他需求-改装车、工厂、商铺、写字间、政府、教育、仓库、军队、机场、
+
+3. 安装体量
+
+4. 售后体量
+
+5. 维修体量
+
+6. 回收体量
+
+7. 供给端
+
+8. 从业人数
+
