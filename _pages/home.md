@@ -4,7 +4,7 @@ permalink: /
 hidden: true
 title: 一个中年男人的昨天和今天<br /><br />
 header:
-  overlay_color: "#333"
+  overlay_color: "#DC143C"
   actions:
     - label: "<i class='fas fa-book'></i> 生 活"
       url: "/blog/"
