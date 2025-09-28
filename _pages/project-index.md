@@ -12,7 +12,7 @@ feature_row1:
     title: "Super customizable"
     excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
     url: "/docs/configuration/"
-    btn_class: "btn btn--primary"
+    btn_class: "btn--primary"
     btn_label: "Learn more"
 ---
 
