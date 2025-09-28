@@ -357,8 +357,6 @@ defaults:
       toc: true
       toc_sticky: true
       toc_icon: "file-alt fa-fw"
-      show_date: true
-      read_time: true
       header: 
         overlay_color: "#333"
 # _work
