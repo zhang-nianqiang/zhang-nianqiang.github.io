@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 hidden: true
-title: 一个中年男人的昨天和今天<br /><br />
+title: 一个中年男人的昨天和今天<br />
 header:
   overlay_color: "#b60000"
   actions:
