@@ -344,7 +344,6 @@ defaults:
       header: 
         overlay_color: "#333"
         show_overlay_excerpt: false
-        # modified date: true
 
 # _projects
   - scope:
@@ -355,7 +354,11 @@ defaults:
       author_profile: false
       share: false
       comment: false
-      
+      toc: true
+      toc_sticky: true
+      toc_icon: "file-alt fa-fw"
+      show_date: true
+      read_time: true
 # _work
   - scope:
       path: ""
@@ -365,3 +368,8 @@ defaults:
       author_profile: false
       share: false
       comment: false
+      toc: true
+      toc_sticky: true
+      toc_icon: "file-alt fa-fw"
+      show_date: true
+      read_time: true
