@@ -9,7 +9,7 @@ header:
 feature_row1:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
-    title: "Super customizable百工庐"
+    title: "百工庐"
     excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter.一个编写适合中国的家庭自主维修及个性化指南的网站"
     url: "/docs/configuration/"
     btn_class: "btn--primary"
