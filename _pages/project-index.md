@@ -16,4 +16,4 @@ feature_row1:
     # alt: "customizable"
 ---
 
-{% include feature_row id="feature_row1" %}
+{% include feature_row id="feature_row1" type="left" %}
