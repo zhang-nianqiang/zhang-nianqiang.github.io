@@ -12,7 +12,7 @@ feature_row1:
     url: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-    image_path: /assets/images/mm-customizable-feature.png
+    image_path: /assets/images/unsplash-gallery-image-2-th.png
     alt: "customizable"
 ---
 
