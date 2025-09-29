@@ -12,8 +12,8 @@ feature_row1:
     url: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-    # image_path: /assets/images/mm-customizable-feature.png
-    # alt: "customizable"
+    image_path: /assets/images/mm-customizable-feature.png
+    alt: "customizable"
 ---
 
 {% include feature_row id="feature_row1" type="left" %}
