@@ -9,7 +9,7 @@ header:
   # actions:
   #  - label: "<i class='fas fa-book'></i> 是一个文件夹，是时间的照片，也是希望的味道。"
 feature_row1:
-  - title: "《百工庐》网站--http://zhangnianqiang.top/"
+  - title: "《百工庐》网站--http://zhangnianqiang.top/<br /><br />"
     excerpt: "进行中的商业网站项目。<br /><br />立志编写适合中国的家庭自主维修及个性化指南的网站。"
     url: "/baigonglu/前言/"
     btn_class: "btn--primary"
