@@ -1,5 +1,5 @@
 ---
-title: 项 目<br /><br />
+title: 项 目<br />
 layout: splash
 permalink: /project/
 hidden: true
