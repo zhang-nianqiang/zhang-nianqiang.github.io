@@ -1,5 +1,5 @@
 ---
-title: "生活<br /><br />"
+title: "生活"
 layout: home
 permalink: /blog/
 description: "张年强的生活"
