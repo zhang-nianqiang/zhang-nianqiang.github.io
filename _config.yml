@@ -313,6 +313,11 @@ compress_html:
 
 overlay_excerpt: true
 
+collections:
+  baigonglu:
+    output: true
+    permalink: /:collection/:path/
+
 # Defaults
 defaults:
   # _posts
@@ -337,7 +342,7 @@ defaults:
 
   # _posts
   - scope:
-      path: "_baigonglu"
+      path: ""
       type: baigonglu
     values:
       layout: single
