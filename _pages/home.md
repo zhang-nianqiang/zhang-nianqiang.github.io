@@ -8,8 +8,8 @@ header:
   actions:
     - label: "<i class='fas fa-book'></i> 生 活"
       url: "/blog/"
-    - label: "<i class='fas fa-person-digging'></i> 工 作"
-      url: "/work/"
+  # - label: "<i class='fas fa-person-digging'></i> 工 作"
+  #   url: "/work/"
     - label: "<i class='fas fa-gears'></i> 项 目"
       url: "/project/"
 ---
