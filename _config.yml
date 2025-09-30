@@ -359,3 +359,5 @@ defaults:
       header: 
         overlay_color: "#b60000"
         show_overlay_excerpt: true
+      sidebar:
+        nav: "baigonglu"
