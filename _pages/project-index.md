@@ -3,9 +3,11 @@ title: 项 目<br /><br />
 layout: splash
 permalink: /project/
 hidden: true
-tagline: "一个文件夹，是时间的照片，也是希望的味道。"
+# tagline: "一个文件夹，是时间的照片，也是希望的味道。"
 header: 
   overlay_color: "#b60000"
+  actions:
+    - label: "<i class='fas fa-book'></i> 一个文件夹，是时间的照片，也是希望的味道。"
 feature_row1:
   - title: "百工庐"
     excerpt: "一个进行中的商业网站项目。<br />一个编写适合中国的家庭自主维修及个性化指南的网站。"
