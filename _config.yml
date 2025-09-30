@@ -220,16 +220,6 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# Collections
-collections:
-  project:
-    output: true
-    permalink: /:collection/:path/
-  work:
-    output: true
-    permalink: /:collection/:path/
-
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -342,36 +332,25 @@ defaults:
       toc_sticky: true
       toc_icon: "file-alt fa-fw"
       header: 
-        overlay_color: "#333"
+        overlay_color: "#b60000"
         show_overlay_excerpt: false
 
-# _projects
+  # _posts
   - scope:
       path: ""
       type: project
     values:
       layout: single
-      author_profile: false
-      share: false
-      comment: false
-      toc: true
-      toc_sticky: true
-      toc_icon: "file-alt fa-fw"
-      header: 
-        overlay_color: "#333"
-# _work
-  - scope:
-      path: ""
-      type: work
-    values:
-      layout: single
-      author_profile: false
-      share: false
-      comment: false
-      toc: true
-      toc_sticky: true
-      toc_icon: "file-alt fa-fw"
+      # classes: wide
+      author_profile: false # true
       show_date: true
       read_time: true
+      comments: # true
+      share: true
+      related: false
+      toc: true
+      toc_sticky: true
+      toc_icon: "file-alt fa-fw"
       header: 
-        overlay_color: "#333"
+        overlay_color: "#b60000"
+        show_overlay_excerpt: true
