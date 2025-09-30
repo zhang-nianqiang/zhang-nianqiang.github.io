@@ -11,7 +11,7 @@ header:
 feature_row1:
   - title: "百工庐"
     excerpt: "进行中的商业网站项目。<br />立志编写适合中国的家庭自主维修及个性化指南的网站。"
-    url: "/project/百工庐/"
+    url: "/baigonglu/前言/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
     image_path: /assets/images/unsplash-gallery-image-2-th.jpg

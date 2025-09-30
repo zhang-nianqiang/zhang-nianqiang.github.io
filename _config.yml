@@ -337,8 +337,8 @@ defaults:
 
   # _posts
   - scope:
-      path: "_project"
-      type: project
+      path: ""
+      type: baigonglu
     values:
       layout: single
       # classes: wide
