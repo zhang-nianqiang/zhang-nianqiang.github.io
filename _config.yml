@@ -332,7 +332,7 @@ defaults:
       read_time: true
       comments: # true
       share: true
-      related: true
+      related: false
       toc: true
       toc_sticky: true
       toc_icon: "file-alt fa-fw"
