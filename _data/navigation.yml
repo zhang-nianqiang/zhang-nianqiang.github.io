@@ -1,0 +1,33 @@
+main:
+  - title: "生 活"
+    url: /blog/
+# - title: "工 作"
+#   url: /work/
+  - title: "项 目"
+    url: /project/
+  - title: "文 章"
+    url: /posts/
+  - title: "分 类"
+    url: /categories/
+  - title: "标 签"
+    url: /tags/
+#- title: "关 于"
+#  url: /about/
+
+baigonglu:
+  - title: "前言"
+    url: /baigonglu/前言/
+  - title: "可行性分析"
+    url: /baigonglu/可行性分析/
+  # - title: "Parent Page B"
+  #  children:
+  #    - title: "Child Page B1"
+  #      url: /
+  #    - title: "Child Page B2"
+  #      url: /
+  #    - title: "Child Page B3"
+  #      url: /
+  #    - title: "Child Page B4"
+  #      url: /
+  #    - title: "Child Page B5"
+  #      url: /
