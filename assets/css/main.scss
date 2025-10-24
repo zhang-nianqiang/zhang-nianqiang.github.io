@@ -4,7 +4,10 @@ search: false
 ---
 
 @charset "utf-8";
-
+$serif: "DouyinSansBold", Georgia, Times, serif !default;
+$sans-serif: "DouyinSansBold", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: "DouyinSansBold", Monaco, Consolas, "Lucida Console", monospace !default;
 $max-width: 99%;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
