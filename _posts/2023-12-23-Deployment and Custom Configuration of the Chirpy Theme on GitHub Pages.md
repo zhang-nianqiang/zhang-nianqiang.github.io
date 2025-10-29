@@ -2,15 +2,15 @@
 # PDF Start
 # title: Chirpy Theme 在 GitHub Pages 部署及自定义配置
 # author: 张年强
-# subject: Internet Technology
+# subject: Jekyll
 # keywords: [Chirpy_Theme, Jekyll, GitHub_Pages]
 # PDF End
 # Obsidian/Jekyll Start
 title: Chirpy Theme 在 GitHub Pages 部署及自定义配置
 author: 张年强
 date: 2023-12-23
-last_modified_at: 2025-10-10
-categories: [Internet Technology]
+last_modified_at: 2025-10-29
+categories: [Jekyll]
 tags: [Chirpy_Theme, Jekyll, GitHub_Pages]
 # Obsidian/Jekyll End
 ---
