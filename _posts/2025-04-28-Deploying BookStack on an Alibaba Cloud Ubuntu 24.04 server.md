@@ -9,7 +9,7 @@
 title: 在阿里云 Ubuntu 24.04 服务器部署 BookStack
 author: 张年强
 date: 2025-04-28
-last_modified_at: 2025-10-10
+last_modified_at: 2025-10-28
 categories: [BookStack]
 tags: [阿里云, Ubuntu_24_04, BookStack]
 # Obsidian/Jekyll End
@@ -148,16 +148,20 @@ mysql -u root -p
 
 提供您的根密码。
 
+屏幕会转到以下提示符：
+
+`MariaDB [(none)]>`
+
 为 Bookstack 创建一个数据库：bookstackdb。
 
 ```mariadb
-MariaDB [(none)]> CREATE DATABASE bookstackdb;
+CREATE DATABASE bookstackdb;
 ```
 
 为 Bookstack 创建一个用户：bookstack。
 
 ```mariadb
-MariaDB [(none)]> CREATE USER 'bookstack'@'localhost' IDENTIFIED BY 'password';
+CREATE USER 'bookstack'@'localhost' IDENTIFIED BY 'password';
 ```
 
 > [!TIP]
@@ -167,7 +171,7 @@ MariaDB [(none)]> CREATE USER 'bookstack'@'localhost' IDENTIFIED BY 'password';
 授予用户 bookstack 在数据库 bookstackdb 的所有权限：
 
 ```mariadb
-MariaDB [(none)]> GRANT ALL ON bookstackdb.* TO 'bookstack'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
+GRANT ALL ON bookstackdb.* TO 'bookstack'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
 ```
 
 > [!TIP]
@@ -177,13 +181,13 @@ MariaDB [(none)]> GRANT ALL ON bookstackdb.* TO 'bookstack'@'localhost' IDENTIFI
 刷新权限 MariaDB shell：
 
 ```mariadb
-MariaDB [(none)]> FLUSH PRIVILEGES;
+FLUSH PRIVILEGES;
 ```
 
 退出 MariaDB shell：
 
 ```mariadb
-MariaDB [(none)]> EXIT;
+EXIT;
 ```
 
 ### 3.3 安装 Composer
