@@ -16,9 +16,9 @@ main:
 
 baigonglu:
   - title: "前言"
-    url: /baigonglu/前言/
+    url: /baigonglu/preface/
   - title: "可行性分析"
-    url: /baigonglu/可行性分析/
+    url: /baigonglu/feasibility analysis/
   # - title: "Parent Page B"
   #  children:
   #    - title: "Child Page B1"
