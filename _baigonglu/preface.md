@@ -1,6 +1,6 @@
 ---
 title: "百工庐"
-excerpt: "立志编写适合中国的家庭自主维修及个性化指南的网站"
+excerpt: "编写适合中国的家庭自主维修指南"
 author: 张年强
 date: 2025-11-02
 last_modified_at: 2025-11-02
