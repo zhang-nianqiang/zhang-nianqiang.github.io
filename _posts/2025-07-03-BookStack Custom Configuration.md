@@ -9,7 +9,7 @@
 title: BookStack 自定义配置
 author: 张年强
 date: 2025-07-03
-last_modified_at: 2025-10-28
+last_modified_at: 2025-11-19
 categories: [BookStack]
 tags: [自定义配置, BookStack]
 # Obsidian/Jekyll End
@@ -19,17 +19,22 @@ tags: [自定义配置, BookStack]
 
 ### 1.1 修改字体
 
-更改字体，需要使用以下代码。以下引入的是通过文风字体提供的抖音美好体。
+更改字体，需要使用以下代码。
+
+以下引入的是通过文风字体提供的抖音美好体及MiSans。
 
 ```css
 <link rel='preconnect' href='https://cn.windfonts.com' crossorigin>
 <link rel="stylesheet" crossorigin="anonymous" href="https://app.windfonts.com/api/css?family=wenfeng-dymht:wght@regular">
 <!-- 此中文网页字体由文风字体（Windfonts）免费提供，您可以自由引用，请务必保留此授权许可标注 https://wenfeng.org/license -->
+<link rel='preconnect' href='https://cn.windfonts.com' crossorigin>
+<link rel="stylesheet" crossorigin="anonymous" href="https://app.windfonts.com/api/css?family=wenfeng-misa:wght@medium">
+<!-- 此中文网页字体由文风字体（Windfonts）免费提供，您可以自由引用，请务必保留此授权许可标注 https://wenfeng.org/license -->
 <style>
-  body {
-    --font-body: 'wenfeng-dymht', 'Noto Serif', serif;
-    --font-heading: 'wenfeng-dymht', 'Roboto', sans-serif;
-    --font-code: 'wenfeng-dymht', 'Source Code Pro', monospace;
+   body, button, input, select, label, textarea {
+       --font-body: "wenfeng-misa", 'Noto Serif', serif;
+       --font-heading: "wenfeng-dymht", 'Roboto', sans-serif;
+       --font-code: 'Source Code Pro', monospace;
   }
  </script>
 ```
@@ -42,34 +47,48 @@ tags: [自定义配置, BookStack]
 <style>
   h1 {
     display: block;
-    font-size: 2.5em;
-}
+    font-size: 3em;
+    line-height: 200%;
+  }
+
   h2 {
     display: block;
-    font-size: 2em;
-}
+    font-size: 2.5em;
+    line-height: 200%;
+  }
+
   h3 {
     display: block;
-    font-size: 1.5em;
-}
+    font-size: 2em;
+    line-height: 200%;
+  }
+
   h4 {
     display: block;
-    font-size: 1.2em;
-}
+    font-size: 2em;
+    line-height: 200%;
+  }
+
   li {
-    padding: 5px;
-}
+    padding: 1px;
+    line-height: 1.8em;
+    font-size: 18px;
+  }
+
   p {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-  img {
-    margin-top: 20px;
-    margin-bottom: 0px;
-}
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+  p img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
   li p {
-    margin-top: 10px;
-}
+    margin-top: 5px;
+  }
 </style>
 ```
 
