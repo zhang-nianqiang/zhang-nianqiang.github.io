@@ -119,13 +119,9 @@ tags: [自定义配置, BookStack]
 </script>
 ```
 
----
-
 ## 2 合规
 
 在页脚链接增加 ICP 备案及公安联网备案。
-
----
 
 ## 3 S3 存储
 
@@ -171,8 +167,6 @@ STORAGE_URL=https://缤纷云-存储桶名称.缤纷云-Endpoint/
 在以上添加你的缤纷云存储库信息。
 
 这些设置会使 BookStack 在你的缤纷云存储库中存储图片及附件。
-
----
 
 ## 4 CDN 加速
 
@@ -221,8 +215,6 @@ sudo nano .env
 ```ini
 STORAGE_URL=http://cdn.xxx.com
 ```
-
----
 
 ## 5 自动证书
 
