@@ -33,8 +33,6 @@ tags: [Chirpy_Theme, Jekyll, GitHub_Pages]
 
 _GitHub.com -> Repository -> Settings -> Pages -> Build and deployment -> Source -> GitHub Actions_
 
----
-
 ## 2 设置 Chirpy Theme
 
 ### 2.1 基础设置
