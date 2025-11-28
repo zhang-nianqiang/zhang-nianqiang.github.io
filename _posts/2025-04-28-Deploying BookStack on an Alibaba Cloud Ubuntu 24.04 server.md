@@ -12,6 +12,7 @@ date: 2025-04-28
 last_modified_at: 2025-10-28
 categories: [BookStack]
 tags: [阿里云, Ubuntu_24_04, BookStack]
+# 2025.11.29 更改代码块设置MariaDB至Shell，minimal-mistakes不支持MariaDB
 # Obsidian/Jekyll End
 ---
 
@@ -154,13 +155,13 @@ mysql -u root -p
 
 为 Bookstack 创建一个数据库：bookstackdb。
 
-```mariadb
+```shell
 CREATE DATABASE bookstackdb;
 ```
 
 为 Bookstack 创建一个用户：bookstack。
 
-```mariadb
+```shell
 CREATE USER 'bookstack'@'localhost' IDENTIFIED BY 'password';
 ```
 
@@ -170,7 +171,7 @@ CREATE USER 'bookstack'@'localhost' IDENTIFIED BY 'password';
 
 授予用户 bookstack 在数据库 bookstackdb 的所有权限：
 
-```mariadb
+```shell
 GRANT ALL ON bookstackdb.* TO 'bookstack'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
 ```
 
@@ -180,13 +181,13 @@ GRANT ALL ON bookstackdb.* TO 'bookstack'@'localhost' IDENTIFIED BY 'password' W
 
 刷新权限 MariaDB shell：
 
-```mariadb
+```shell
 FLUSH PRIVILEGES;
 ```
 
 退出 MariaDB shell：
 
-```mariadb
+```shell
 EXIT;
 ```
 
