@@ -12,6 +12,7 @@ date: 2025-10-19
 last_modified_at: 2025-10-19
 categories: [WordPress]
 tags: [阿里云, Ubuntu_24_04, WordPress]
+# 2025.11.29 更改代码块设置MariaDB至Shell，minimal-mistakes不支持MariaDB
 # Obsidian/Jekyll End
 ---
 
@@ -20,8 +21,6 @@ tags: [阿里云, Ubuntu_24_04, WordPress]
 - **WordPress** 6.8.3
 - **PHP** >= 8.3
 - **MariaDB** >= 10.6
-
----
 
 ## 2 服务器
 
@@ -68,8 +67,6 @@ sudo apt-get upgrade -y
 ```
 
 安装完成后，在阿里云服务器控制面板重启服务器。
-
----
 
 ## 3 环境
 
@@ -130,16 +127,20 @@ mysql -u root -p
 
 提供您的根密码。
 
+屏幕会转到以下提示符：
+
+`MariaDB [(none)]>`
+
 为 Bookstack 创建一个数据库：wordpressdb。
 
-```mariadb
-MariaDB [(none)]> CREATE DATABASE wordpressdb;
+```shell
+CREATE DATABASE wordpressdb;
 ```
 
 为 Bookstack 创建一个用户：wordpress。
 
-```mariadb
-MariaDB [(none)]> CREATE USER 'wordpress'@'localhost' IDENTIFIED BY 'password';
+```shell
+CREATE USER 'wordpress'@'localhost' IDENTIFIED BY 'password';
 ```
 
 > [!TIP]
@@ -148,8 +149,8 @@ MariaDB [(none)]> CREATE USER 'wordpress'@'localhost' IDENTIFIED BY 'password';
 
 授予用户 wordpress 在数据库 wordpressdb 的所有权限：
 
-```mariadb
-MariaDB [(none)]> GRANT ALL ON wordpressdb.* TO 'wordpress'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
+```shell
+GRANT ALL ON wordpressdb.* TO 'wordpress'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
 ```
 
 > [!TIP]
@@ -158,14 +159,14 @@ MariaDB [(none)]> GRANT ALL ON wordpressdb.* TO 'wordpress'@'localhost' IDENTIFI
 
 刷新权限 MariaDB shell：
 
-```mariadb
-MariaDB [(none)]> FLUSH PRIVILEGES;
+```shell
+FLUSH PRIVILEGES;
 ```
 
 退出 MariaDB shell：
 
-```mariadb
-MariaDB [(none)]> EXIT;
+```shell
+EXIT;
 ```
 
 ## 4 部署 WordPress
@@ -286,8 +287,6 @@ sudo systemctl restart apache2
 点击“提交”->点击“运行安装程序”
 
 填写信息->点击“安装 WordPress”
-
----
 
 ## 5 测试
 
