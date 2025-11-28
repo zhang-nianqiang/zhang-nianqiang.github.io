@@ -51,8 +51,6 @@ tags: [升级, BookStack]
   php artisan view:clear
   ```
 
----
-
 ## 2 问题处理
 
 ### 2.1 用户权限
