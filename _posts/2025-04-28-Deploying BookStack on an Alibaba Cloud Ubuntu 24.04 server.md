@@ -24,8 +24,6 @@ tags: [阿里云, Ubuntu_24_04, BookStack]
 - **Git**
 - **Composer** >= 2.2.0
 
----
-
 ## 2 服务器
 
 ### 2.1 购买服务器
@@ -91,8 +89,6 @@ sudo apt-get upgrade -y
 ```
 
 安装完成后，在阿里云服务器控制面板重启服务器。
-
----
 
 ## 3 环境
 
@@ -196,8 +192,6 @@ EXIT;
 ```shell
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 ```
-
----
 
 ## 4 部署 BookStack
 
@@ -383,8 +377,6 @@ sudo a2enmod rewrite
 ```shell
 sudo systemctl restart apache2
 ```
-
----
 
 ## 5 测试
 
