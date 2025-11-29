@@ -4,6 +4,7 @@ layout: splash
 permalink: /project/
 hidden: true
 tagline: "是一个文件夹，是时间的照片，也是希望的味道。"
+description: 项目，是一个文件夹，是时间的照片，也是希望的味道。
 header: 
   overlay_color: "#b60000"
 feature_row1:
