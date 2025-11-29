@@ -9,7 +9,7 @@ header:
   overlay_color: "#b60000"
 feature_row1:
   - title: "《百工庐》--进行中的商业网站项目<br /><br />"
-    excerpt: "编写适合中国的家庭自主维修指南。"
+    excerpt: "编写适合中国的家庭自主维修指南。<br /><br />"
     url: "/baigonglu/preface/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
