@@ -7,7 +7,7 @@ tagline: "是一个文件夹，是时间的照片，也是希望的味道。"
 header: 
   overlay_color: "#b60000"
 feature_row1:
-  - title: "《百工庐》网站--zhangnianqiang.top<br /><br />"
+  - title: "《百工庐》网站--zhangnianqiang.top"
     excerpt: "进行中的商业网站项目。<br /><br />编写适合中国的家庭自主维修指南。"
     url: "/baigonglu/preface/"
     btn_class: "btn--primary"
