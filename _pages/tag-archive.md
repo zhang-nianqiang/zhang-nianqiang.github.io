@@ -2,5 +2,6 @@
 title: "Posts by Tag"
 permalink: /tags/
 layout: tags
-author_profile: true
+description: 按照标签分类文章
+author_profile: false
 ---
