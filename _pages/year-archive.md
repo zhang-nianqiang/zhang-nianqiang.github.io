@@ -2,5 +2,6 @@
 title: "Posts by Year"
 permalink: /posts/
 layout: posts
-author_profile: true
+description: 按照年份分类文章
+author_profile: false
 ---
