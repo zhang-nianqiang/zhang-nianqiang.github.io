@@ -9,7 +9,7 @@
 title: Typora 自定义配置
 author: 张年强
 date: 2024-01-15
-last_modified_at: 2025-10-31
+last_modified_at: 2025-12-10
 categories: [Text]
 tags: [Typora, 自定义配置]
 # Obsidian/Jekyll End
@@ -64,7 +64,13 @@ table {
 
 ### 1.2 分页符
 
-在导出 PDF 时需要使用分页符来控制排版，可以使用连续三个 `-` 来实现分页。
+在导出 PDF 时需要使用分页符来进行简单排版。
+
+#### 1.2.1 方法一
+
+在正文中需要分页的地方输入连续三个 `-` 来实现分页。
+
+在 CSS 中增加以下代码：
 
 ```css
 @media print, (overflow-block: paged) or (overflow-block: optional-paged) {
@@ -78,7 +84,51 @@ table {
 }
 ```
 
-### 1.3 标题间距
+> [!NOTE]
+>
+> 注意：使用此方法进行分页时，如果同时使用 footnote，footnote 将出现在整个文章最后的单独一页。
+
+#### 1.2.2 方法二
+
+在正文中需要分页的地方输入以下代码：
+
+```html
+<div class="page-break"></div>
+```
+
+在 CSS 中增加以下代码：
+
+```css
+.page-break {
+  display: none;
+}
+@media print, (overflow-block: paged) or (overflow-block: optional-paged) {
+  .page-break {
+    display: block;
+    page-break-after: always; /* CSS 2 */
+    break-after: page; /* CSS 3+ */
+  }
+}
+```
+
+> [!NOTE]
+>
+> 注意：使用此方法进行分页时，如果同时使用 footnote，footnote 将出现在整个文章的最后。
+
+### 1.3 标题
+
+#### 1.3.1 标题下划线
+
+h1 及 h2 会有一个下划线，如果想取消下划线，在 CSS 中增加以下代码：
+
+```css
+h1,
+h2 {
+  border-bottom: none;
+}
+```
+
+#### 1.3.2 标题间距
 
 为适应个人的标题间距喜好,更改`margin-top` `margin-bottom` 的数值，使标题间距增大或缩小。
 
@@ -107,8 +157,6 @@ h6 {
   max-width: 661px; /*adjust writing area position*/
 }
 ```
-
-此数值也适合在竖屏 24 寸显示器显示。
 
 ### 1.5 表格样式
 
