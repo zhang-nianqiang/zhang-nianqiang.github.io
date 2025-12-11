@@ -3,8 +3,8 @@ title: 项目
 layout: splash
 permalink: /project/
 hidden: true
-tagline: "春去又来，删了又改。是一个文件夹，是时间的照片，也是希望的味道。"
-description: 张年强的项目，是一个文件夹，是时间的照片，也是希望的味道。
+tagline: "春去又来，删了又改。是一个文件夹，也是时间的照片。"
+description: 张年强的项目。春去又来，删了又改。是一个文件夹，也是时间的照片。。
 header: 
   overlay_color: "#b60000"
 feature_row1:
