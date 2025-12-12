@@ -17,17 +17,17 @@ minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "d
 # Site Settings
 locale                   : "zh-CN" # "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "张 年 强"
+title                    : "张年强"
 title_separator          : "-"
-subtitle                 : "" # site tagline that appears below site title in masthead
-name                     : "张 年 强"
-description              : "一个中年男人的过去和现在."
+subtitle                 : "一个中年男人的昨天和今天" # site tagline that appears below site title in masthead
+name                     : "张年强"
+description              : "一个中年男人的昨天和今天"
 url                      : "https://zhang-nianqiang.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "zhang-nianqiang/zhang-nianqiang.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "展示一个中年男人的昨天和今天，展望充满希望的明天" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : true # true, false (default)
@@ -123,9 +123,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:15840334992@163.com"
-    - label: "Website"
+    - label: "百工庐"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "http://zhangnianqiang.top"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -142,9 +142,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
+    - label: "百工庐"
+      icon: "fas fa-fw fa-link"
+      url: "http://zhangnianqiang.top"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
