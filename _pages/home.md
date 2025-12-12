@@ -3,7 +3,7 @@ layout: splash
 permalink: /
 hidden: true
 title: 一个中年男人的昨天和今天<br />
-description: 展示一个中年男人的昨天和今天，展望充满希望的明天
+description: 一个中年男人的昨天和今天，也是一个充满梦想和希望的明天
 header:
   overlay_color: "#b60000"
   actions:
