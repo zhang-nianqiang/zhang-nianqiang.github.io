@@ -12,6 +12,7 @@ date: 2025-10-19
 last_modified_at: 2025-10-19
 categories: [WordPress]
 tags: [阿里云, Ubuntu_24_04, WordPress]
+description: 在阿里云 Ubuntu 24.04 服务器部署 WordPress 的方法
 # 2025.11.29 更改代码块设置MariaDB至Shell，minimal-mistakes不支持MariaDB
 # Obsidian/Jekyll End
 ---
