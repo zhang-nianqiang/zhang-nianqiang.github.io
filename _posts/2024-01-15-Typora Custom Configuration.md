@@ -12,6 +12,7 @@ date: 2024-01-15
 last_modified_at: 2025-12-10
 categories: [Text]
 tags: [Typora, 自定义配置]
+description: 以新增用户 CSS 的方法调整页面样式及导出条自定义方法
 # Obsidian/Jekyll End
 ---
 
