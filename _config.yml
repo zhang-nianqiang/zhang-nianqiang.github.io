@@ -19,7 +19,7 @@ locale                   : "zh-CN" # "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "张年强"
 title_separator          : "-"
-subtitle                 : "一个中年男人的昨天和今天，也是一个充满梦想和希望的明天" # site tagline that appears below site title in masthead
+subtitle                 : "" # site tagline that appears below site title in masthead
 name                     : "张年强"
 description              : "一个中年男人的昨天和今天，也是一个充满梦想和希望的明天"
 url                      : "https://zhang-nianqiang.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
