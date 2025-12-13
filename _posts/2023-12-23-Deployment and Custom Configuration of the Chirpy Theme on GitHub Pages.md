@@ -12,6 +12,7 @@ date: 2023-12-23
 last_modified_at: 2025-10-29
 categories: [Jekyll]
 tags: [Chirpy_Theme, Jekyll, GitHub_Pages]
+description: Chirpy Theme 在 GitHub Pages 部署及自定义配置
 # Obsidian/Jekyll End
 ---
 
