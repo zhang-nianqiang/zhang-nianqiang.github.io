@@ -12,6 +12,7 @@ date: 2025-04-28
 last_modified_at: 2025-10-28
 categories: [BookStack]
 tags: [阿里云, Ubuntu_24_04, BookStack]
+description: 在阿里云 Ubuntu 24.04 服务器部署 BookStack 的方法
 # 2025.11.29 更改代码块设置MariaDB至Shell，minimal-mistakes不支持MariaDB
 # Obsidian/Jekyll End
 ---
