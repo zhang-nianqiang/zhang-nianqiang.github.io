@@ -12,6 +12,7 @@ date: 2025-06-15
 last_modified_at: 2025-11-10
 categories: [BookStack]
 tags: [升级, BookStack]
+description: BookStack 的升级方法及升级过程中遇到问题的处理方法
 # Obsidian/Jekyll End
 ---
 
