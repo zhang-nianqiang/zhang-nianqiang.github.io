@@ -12,6 +12,7 @@ date: 2025-07-03
 last_modified_at: 2025-11-19
 categories: [BookStack]
 tags: [自定义配置, BookStack]
+description: 通过 CSS 的方法调整 BookStack 的页面样式及 S3 存储相关的设定方法
 # Obsidian/Jekyll End
 ---
 
