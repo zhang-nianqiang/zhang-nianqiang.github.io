@@ -27,11 +27,6 @@ layout: default
       {%- when "lunr" -%}
         <input type="text" id="search" class="search-input" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" />
         <div id="results" class="results"></div>
-        {% if site.locale == "zh-CN" or site.locale == "zh" %}
-        <script src="{{ '/assets/js/lunr/lunr-zh.js' | relative_url }}"></script>
-        {% else %}
-        <script src="{{ '/assets/js/lunr/lunr-en.js' | relative_url }}"></script>
-        {% endif %}
       {%- when "google" -%}
         <form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
         <input type="text" id="cse-search-input-box-id" class="search-input" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" />
