@@ -1,7 +1,7 @@
 ---
 layout: none
 ---
-
+<head></head>
 var idx = lunr(function () {
   this.field('title')
   this.field('excerpt')
