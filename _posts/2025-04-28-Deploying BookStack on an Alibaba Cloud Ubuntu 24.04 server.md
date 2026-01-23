@@ -9,23 +9,25 @@
 title: 在阿里云 Ubuntu 24.04 服务器部署 BookStack
 author: 张年强
 date: 2025-04-28
-last_modified_at: 2025-10-28
+last_modified_at: 2026-01-23
 categories: [BookStack]
 tags: [阿里云, Ubuntu_24_04, BookStack]
 description: 在阿里云 Ubuntu 24.04 服务器部署 BookStack 的方法
-# 2025.11.29 更改代码块设置MariaDB至Shell，minimal-mistakes不支持MariaDB
+# 2025.11.29 更改代码块设置 MariaDB 至 Shell，Minimal Mistakes 不支持MariaDB
 # Obsidian/Jekyll End
 ---
 
-## 1 运行要求
+## 1. 运行要求
 
-- **BookStack** 25.02.2
-- **PHP** >= 8.2
-- **MariaDB** >= 10.2
-- **Git**
-- **Composer** >= 2.2.0
+| **BookStack** | 25.02.2  |   25.12.1   |
+| :-----------: | :------: | :---------: |
+|    **PHP**    |  >= 8.2  |   >= 8.2    |
+|  **MariaDB**  | >= 10.2  | ==>= 10.6== |
+|   **MySQL**   |  >= 5.7  | ==>= 8.0==  |
+|    **Git**    |   ----   |    ----     |
+| **Composer**  | >= 2.2.0 |  >= 2.2.0   |
 
-## 2 服务器
+## 2. 服务器
 
 ### 2.1 购买服务器
 
@@ -91,7 +93,7 @@ sudo apt-get upgrade -y
 
 安装完成后，在阿里云服务器控制面板重启服务器。
 
-## 3 环境
+## 3. 环境
 
 安装 Apache Web 服务器、MariaDB 服务器、PHP 和其他 PHP 模块、Git。
 
@@ -194,7 +196,7 @@ EXIT;
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 ```
 
-## 4 部署 BookStack
+## 4. 部署 BookStack
 
 ### 4.1 下载 BookStack
 
@@ -379,7 +381,7 @@ sudo a2enmod rewrite
 sudo systemctl restart apache2
 ```
 
-## 5 测试
+## 5. 测试
 
 访问: <http://example.com>
 
