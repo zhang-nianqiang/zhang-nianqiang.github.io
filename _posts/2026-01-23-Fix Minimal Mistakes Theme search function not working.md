@@ -12,6 +12,7 @@ date: 2026-01-23
 last_modified_at: 2026-01-23
 categories: [Jekyll]
 tags: [Minimal Mistakes Theme, Jekyll Gfm Admonitions]
+description: 解决 Minimal Mistakes Theme 搜索功能与 Jekyll Gfm Admonitions 冲突的问题
 # Obsidian/Jekyll End
 ---
 
