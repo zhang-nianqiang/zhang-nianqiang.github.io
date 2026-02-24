@@ -12,6 +12,7 @@ date: 2026-02-23
 last_modified_at: 2026-02-23
 categories: [BookStack]
 tags: [Https, BookStack]
+description: 使BookStack能够使用Https访问的配置方法
 # Obsidian/Jekyll End
 ---
 
