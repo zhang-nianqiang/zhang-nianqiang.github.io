@@ -9,13 +9,17 @@
 title: 在阿里云 Ubuntu 24.04 服务器部署 WordPress
 author: 张年强
 date: 2025-10-19
-last_modified_at: 2025-10-19
+last_modified_at: 2026-02-26
 categories: [WordPress]
 tags: [阿里云, Ubuntu_24_04, WordPress]
 description: 在阿里云 Ubuntu 24.04 服务器部署 WordPress 的方法
 # 2025.11.29 更改代码块设置MariaDB至Shell，minimal-mistakes不支持MariaDB
 # Obsidian/Jekyll End
 ---
+
+> [!CAUTION]
+>
+> 注意：本文档在2026年2月26日标记为`存档`，使用时请注意文内信息的准确性及时效性。
 
 ## 1 运行要求
 
