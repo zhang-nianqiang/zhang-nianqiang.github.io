@@ -9,12 +9,16 @@
 title: Chirpy Theme 在 GitHub Pages 部署及自定义配置
 author: 张年强
 date: 2023-12-23
-last_modified_at: 2025-10-29
+last_modified_at: 2026-02-27
 categories: [Jekyll]
 tags: [Chirpy_Theme, Jekyll, GitHub_Pages]
 description: Chirpy Theme 在 GitHub Pages 部署及自定义配置
 # Obsidian/Jekyll End
 ---
+
+> [!CAUTION]
+>
+> 注意：本文档在2026年2月27日标记为`存档`，使用时请注意文内信息的准确性及时效性。
 
 ## 1 部署
 
