@@ -287,6 +287,12 @@ whitelist:
   - jekyll-include-cache
   - jekyll-remote-theme
 
+# Uncomment the following to disable the built-in CSS injection.
+# Use this when your theme already provides markdown-alert styles
+# (e.g. Minimal Mistakes, Chirpy) to avoid style conflicts.
+#
+gfm_admonitions:
+  inject_css: false
 
 # Archives
 #  Type
