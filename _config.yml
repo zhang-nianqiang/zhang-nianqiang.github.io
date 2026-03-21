@@ -292,7 +292,7 @@ whitelist:
 # (e.g. Minimal Mistakes, Chirpy) to avoid style conflicts.
 #
 gfm_admonitions:
-  inject_css: true
+  inject_css: false
 
 # Archives
 #  Type
