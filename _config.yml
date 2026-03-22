@@ -246,7 +246,7 @@ timezone: Asia/Harbin # https://en.wikipedia.org/wiki/List_of_tz_database_time_z
 # See https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
 #   for configuration details
 pagination:
-  enabled: false
+  enabled: true
   debug: false
   collection: 'posts'
   per_page: 5
