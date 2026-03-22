@@ -249,7 +249,7 @@ pagination:
   enabled: true
   debug: false
   collection: 'posts'
-  per_page: 5
+  per_page: 8
   permalink: '/blog/page/:num/'
   title: ':title'
   limit: 0
