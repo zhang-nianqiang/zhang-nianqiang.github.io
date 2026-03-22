@@ -242,32 +242,27 @@ permalink: /:categories/:title/
 timezone: Asia/Harbin # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
-# Pagination with jekyll-paginate
-paginate: 5
-paginate_path: "blog/page:num/"
-
-
 # Pagination with jekyll-paginate-v2
 # See https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
 #   for configuration details
-# pagination:
-#   enabled: true
-#   debug: false
-#   collection: 'posts'
-#   per_page: 5
-#   permalink: '/page/:num/'
-#   title: ':title - page :num'
-#   limit: 0
-#   sort_field: 'date'
-#   sort_reverse: true
-#   trail:
-#     before: 2
-#     after: 2
+pagination:
+  enabled: false
+  debug: false
+  collection: 'posts'
+  per_page: 5
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
 
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -277,7 +272,7 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
