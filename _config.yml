@@ -250,7 +250,7 @@ pagination:
   debug: false
   collection: 'posts'
   per_page: 5
-  permalink: '/page/:num/'
+  permalink: '/blog/page/:num/'
   title: ':title'
   limit: 0
   sort_field: 'date'
